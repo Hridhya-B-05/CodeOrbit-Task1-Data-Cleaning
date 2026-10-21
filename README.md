@@ -1,34 +1,43 @@
-# CodeOrbit-Task1-Data-Cleaning-excel
-Data cleaning in Excel: duplicate removal, missing-value identification, and data quality documentation.
+ CodeOrbit Task 1: Data Cleaning in Excel
 
-## Project Overview
-This project demonstrates basic data cleaning techniques using Microsoft Excel.
+ 1. Project Description
+This project demonstrates data cleaning using Microsoft Excel. The work includes identifying missing values, removing duplicate records, correcting number formatting, and documenting the cleaning process.
 
-## Objectives
-- Identify missing values.
-- Detect and remove duplicate records.
-- Apply appropriate number formatting.
-- Document the cleaning process.
+A sample dataset was used for practice because an official dataset was not provided with the task instructions.
 
-## Cleaning Steps
-1. Identified blank cells using Go To Special → Blanks.
-2. Removed one duplicate product record using Remove Duplicates.
-3. Applied currency formatting to the Price column.
-4. Added a Data Quality Status column to identify incomplete records.
-5. Documented the cleaning activities in a Cleaning Log.
+2. Technologies Used
+- Microsoft Excel
+- GitHub for project hosting and version control
 
-## Results
+ 3. Setup Instructions
+1. Download or clone this repository to your computer.
+2. Open `Data cleaning.xlsx` using Microsoft Excel.
+3. Review the `Real Cleaning Practice`, `Cleaned Dataset`, and `Cleaning Log` worksheets.
+4. Open `data cleaning report.docx` to read the cleaning report.
+
+No additional software installation or programming setup is required beyond Microsoft Excel or a compatible spreadsheet application.
+
+ 4. GitHub Repository Link
+Repository: https://github.com/Hridhya-B-05/CodeOrbit-Data-Cleaning.git
+
+
+
+ 5. Cleaning Steps
+- Identified missing values using Go To Special → Blanks.
+- Removed one duplicate product record using Remove Duplicates.
+- Applied currency formatting to the Price column.
+- Added a Data Quality Status column to flag incomplete records.
+- Recorded the cleaning steps in the Cleaning Log.
+
+ 6. Results
 - One duplicate record was removed.
-- Missing values were identified and flagged.
-- The dataset's formatting and readability were improved.
-- Missing values were retained when the correct values could not be verified.
+- Missing values were identified and marked.
+- The dataset was formatted for easier reading.
+- Unverified missing values were retained rather than filled with assumptions.
 
-## Dataset Note
-A sample dataset was used for practice .The results are demonstrations, not company sales or operational data.
+ 7. Files Included
+- `Data cleaning.xlsx` — Excel workbook containing the practice data and cleaning worksheets.
+- `data cleaning report.docx` — Report documenting the cleaning process.
 
-## Files Included
-- `Data cleaning.xlsx` — Excel workbook containing the practice and cleaning worksheets.
-- `Task1_Data_Cleaning_Report.docx` — Data cleaning report.
-
-## Conclusion
-This task provided practical experience in identifying data quality issues and documenting data cleaning steps using Microsoft Excel.
+ 8. Conclusion
+This project provided practical experience in identifying data quality issues, cleaning records, and documenting the steps using Microsoft Excel.
